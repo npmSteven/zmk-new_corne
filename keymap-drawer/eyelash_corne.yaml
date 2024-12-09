@@ -86,17 +86,17 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - _
-  - {t: '=', s: +}
+  - '"'
   - {t: '`', s: '~'}
+  - '|'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - '|'
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - INS
-  - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '=', s: +}
+  - {t: '-', s: _}
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
