@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: eyelash_corne}
 layers:
   qwerty:
   - $$mdi:keyboard-tab$$
@@ -12,7 +13,7 @@ layers:
   - I
   - O
   - P
-  - {t: '-', s: _}
+  - {t: '-', h: '$$mdi:apple-keyboard-option$$', s: _}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
   - S
